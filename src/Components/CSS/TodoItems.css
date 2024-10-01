@@ -1,0 +1,27 @@
+.todoitems {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 0px;
+  align-items: center;
+}
+img {
+  height: 25px;
+  width: 25px;
+  border: 0.5px solid white;
+  border-radius: 50%;
+}
+.todoitems-container {
+  display: flex;
+}
+.todoitems-text {
+  padding-left: 16px;
+  color: whitesmoke;
+  font-size: 22px;
+}
+.todoitems-remove-icon {
+  cursor: pointer;
+  /* padding-right: 25px; */
+}
+.line-through {
+  text-decoration: line-through solid #adadad 3px;
+}
